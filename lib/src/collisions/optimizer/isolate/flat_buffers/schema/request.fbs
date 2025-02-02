@@ -1,9 +1,0 @@
-include "bounding_hitbox.fbs";
-
-namespace Optimizer;
-
-
-table OverlappingSearchRequest {
-  hitboxes: [BoundingHitbox];
-  maximumItemsInGroup: int;
-}

@@ -1,7 +1,0 @@
-include "optimized_collisions.fbs";
-
-namespace Optimizer;
-
-table OverlappedSearchResponse {
-  optimizedCollisions: [OptimizedCollisions];
-}
